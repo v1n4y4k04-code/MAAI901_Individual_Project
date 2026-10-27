@@ -1,0 +1,11 @@
+Class,Class_Index,Image_Count
+AnnualCrop,0,3000
+Forest,1,3000
+HerbaceousVegetation,2,3000
+Highway,3,2500
+Industrial,4,2500
+Pasture,5,2000
+PermanentCrop,6,2500
+Residential,7,3000
+River,8,2500
+SeaLake,9,3000

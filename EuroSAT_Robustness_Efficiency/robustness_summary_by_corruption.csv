@@ -1,0 +1,7 @@
+model,corruption,mean_accuracy,mean_macro_f1,mean_accuracy_drop,worst_accuracy,best_accuracy,clean_accuracy
+MobileNetV3-Small,gaussian_noise,0.1229,0.0409,0.8487,0.1111,0.1464,0.9716
+MobileNetV3-Small,rotation,0.7436,0.7328,0.228,0.6906,0.7748,0.9716
+MobileNetV3-Small,salt_pepper,0.55,0.4876,0.4216,0.3852,0.7442,0.9716
+MobileViT-XXS,gaussian_noise,0.1216,0.0388,0.8381,0.1111,0.1427,0.9598
+MobileViT-XXS,rotation,0.823,0.8218,0.1367,0.8025,0.8435,0.9598
+MobileViT-XXS,salt_pepper,0.4657,0.4019,0.4941,0.2721,0.7316,0.9598

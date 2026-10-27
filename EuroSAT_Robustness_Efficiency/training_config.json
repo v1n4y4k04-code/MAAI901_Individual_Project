@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "device": "cuda:0",
+  "epochs": 5,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "optimizer": "AdamW",
+  "loss": "CrossEntropyLoss",
+  "batch_size": 64,
+  "image_size": 224,
+  "num_classes": 10,
+  "models": [
+    "MobileNetV3-Small",
+    "MobileViT-XXS"
+  ],
+  "selection_metric": "validation_accuracy",
+  "early_stopping_patience": 2,
+  "test_split_used_during_training": false
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "EuroSAT RGB",
+  "total_images": 27000,
+  "number_of_classes": 10,
+  "class_names": [
+    "AnnualCrop",
+    "Forest",
+    "HerbaceousVegetation",
+    "Highway",
+    "Industrial",
+    "Pasture",
+    "PermanentCrop",
+    "Residential",
+    "River",
+    "SeaLake"
+  ],
+  "class_to_idx": {
+    "AnnualCrop": 0,
+    "Forest": 1,
+    "HerbaceousVegetation": 2,
+    "Highway": 3,
+    "Industrial": 4,
+    "Pasture": 5,
+    "PermanentCrop": 6,
+    "Residential": 7,
+    "River": 8,
+    "SeaLake": 9
+  },
+  "image_sizes": {
+    "(64, 64)": 27000
+  },
+  "image_modes": {
+    "RGB": 27000
+  },
+  "random_seed": 42
+}

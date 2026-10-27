@@ -1,0 +1,21 @@
+{
+  "seed": 42,
+  "train_fraction": 0.7,
+  "validation_fraction": 0.15,
+  "test_fraction": 0.15,
+  "train_count": 18900,
+  "validation_count": 4050,
+  "test_count": 4050,
+  "class_names": [
+    "AnnualCrop",
+    "Forest",
+    "HerbaceousVegetation",
+    "Highway",
+    "Industrial",
+    "Pasture",
+    "PermanentCrop",
+    "Residential",
+    "River",
+    "SeaLake"
+  ]
+}
